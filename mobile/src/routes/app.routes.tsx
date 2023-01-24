@@ -13,14 +13,14 @@ export function AppRoutes() {
         name="home"
         component={Home}
         />
-        <Screen 
-          name="new"
-          component={New}
-        />
-        <Screen 
-          name="habit"
-          component={Habit}
-        />
+      <Screen 
+        name="new"
+        component={New}
+      />
+      <Screen 
+        name="habit"
+        component={Habit}
+      />
     </Navigator>
   )
 }
