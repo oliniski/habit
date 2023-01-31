@@ -32,7 +32,7 @@ export function New() {
   async function handleCreateNewHabit() {
     try {
       if (!title.trim()) {
-        Alert.alert('Novo Hábito', 'Informe o titulo do hábito')
+        return Alert.alert('Novo Hábito', 'Informe o titulo do hábito')
       } else if (weekDays.length === 0) {
         Alert.alert('Novo Hábito', 'Informe pelo menos um dia da semana')
       }
